@@ -162,7 +162,7 @@
         console.log(roman + ' em arábico é: ' + arabic);
 
         function converter() {
-            var num = parseInt(document.getElementById('inputNum').value);
+            var num = Number(document.getElementById('inputNum').value);
             if ( num < 1  || num > 3999){
                 alert('Por favor insira apenas numeros entre 1 e 3999')
                 return
